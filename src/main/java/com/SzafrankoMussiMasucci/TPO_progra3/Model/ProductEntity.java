@@ -41,4 +41,21 @@ public class ProductEntity {
     public void setPersonBought(Set<PersonEntity> personBought) {
         this.personBought = personBought;
     }
+
+    public Set<PersonEntity> getPersonWant() {
+        return personWant;
+    }
+
+    public Set<PersonEntity> getPersonBought() {
+        return personBought;
+    }
+
+    // Métodos para obtener los "wanters" y "boughters"
+    public Set<PersonEntity> getWanters() {
+        return getPersonWant();
+    }
+
+    public Set<PersonEntity> getBoughters() {
+        return getPersonBought();
+    }
 }
