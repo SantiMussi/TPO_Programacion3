@@ -37,7 +37,7 @@ public class Grafo {
             Object actual = cola.poll();
             if (actual instanceof ProductEntity) {
                 ProductEntity product = (ProductEntity) actual;
-                resultado.append("Movie: ").append(product.getName()).append("\n");
+                resultado.append("Product: ").append(product.getName()).append("\n");
                 for (PersonEntity persona : adjProducts.get(product)) {
                     if (!visitadoPeople.contains(persona)) {
                         visitadoPeople.add(persona);
