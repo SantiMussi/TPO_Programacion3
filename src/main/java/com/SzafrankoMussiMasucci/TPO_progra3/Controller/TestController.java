@@ -1,4 +1,4 @@
-package com.SzafrankoMussiMasucci.TPO_progra3;
+package com.SzafrankoMussiMasucci.TPO_progra3.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
