@@ -20,6 +20,7 @@ public class ProductEntity {
     private Set<PersonEntity> personBought = new HashSet<>();
     @Relationship(type = "WANTS", direction = INCOMING)
     private Set<PersonEntity> personWant = new HashSet<>();
+
     public ProductEntity(String name, String type) {
         this.name = name;
         this.type = type;
