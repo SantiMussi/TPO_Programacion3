@@ -14,7 +14,7 @@ import static org.springframework.data.neo4j.core.schema.Relationship.Direction.
 public class ProductEntity {
     @Id
     private final String name;
-    @Property("tagline")
+    @Property("type")
     private final String type;
     @Relationship(type = "BOUGHT", direction = INCOMING)
     private Set<PersonEntity> personBought = new HashSet<>();
