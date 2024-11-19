@@ -58,4 +58,14 @@ public class ProductEntity {
     public Set<PersonEntity> getBoughters() {
         return getPersonBought();
     }
+
+    @Override
+    public String toString() {
+        return "ProductEntity{" +
+                "name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", personBought=" + personBought +
+                ", personWant=" + personWant +
+                '}';
+    }
 }

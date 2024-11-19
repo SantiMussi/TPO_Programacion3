@@ -14,4 +14,11 @@ public class PersonEntity {
     public String getName() {
         return name;
     }
+
+    @Override
+    public String toString() {
+        return "PersonEntity{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
