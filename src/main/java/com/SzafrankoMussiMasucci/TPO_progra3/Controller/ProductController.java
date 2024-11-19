@@ -8,7 +8,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("/movies")
+@RequestMapping("/products")
 public class ProductController {
     private final ProductRepository prodRepository;
     public ProductController(ProductRepository prodRepository) {
